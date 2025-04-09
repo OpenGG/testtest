@@ -1,0 +1,17 @@
+给定两个从小到大排序数组，a，b
+要求实现 mergeSortedArray，输出的结果是合并后的数组，且从小到大排序：
+const a=[2,5,5,6];
+const b=[1,2,3,29];
+const c= mergeSortedArray(a, b);
+for(const i of c) { // 依次打印结果
+    console.log(i);
+}
+    
+function mergeSortedArray(a, b) {
+    // todo
+    // return ...;
+}
+
+
+mergeSortedArray(a, b);
+结果：按顺序输出 1, 2, 2, 3, 5, 5, 6, 29
